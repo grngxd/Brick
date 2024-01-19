@@ -18,9 +18,7 @@ public class Component {
     public int width;
     public int height;
     public Style style;
-    final ArrayList<Component> components = new ArrayList<>(
-            List.of()
-    );
+    final List<Component> components = new ArrayList<>();
 
     public void init(NVGU nvgu) {}
     public void render(NVGU nvgu) {
