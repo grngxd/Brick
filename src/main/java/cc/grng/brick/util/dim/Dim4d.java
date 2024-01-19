@@ -1,6 +1,7 @@
 package cc.grng.brick.util.dim;
 
 import lombok.AllArgsConstructor;
+import lombok.Data;
 
 @AllArgsConstructor
 public class Dim4d {

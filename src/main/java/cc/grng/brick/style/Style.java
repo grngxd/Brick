@@ -12,4 +12,8 @@ public class Style {
     @Builder.Default Color color = Color.BLACK;
     @Builder.Default
     Dim4f rounded = new Dim4f(0, 0, 0, 0);
+    @Builder.Default
+    float thickness = 0;
+    @Builder.Default
+    boolean filled = false;
 }

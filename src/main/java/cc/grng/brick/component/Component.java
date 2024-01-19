@@ -13,11 +13,11 @@ import java.util.List;
 @SuperBuilder
 @AllArgsConstructor @RequiredArgsConstructor
 public class Component {
-    int x;
-    int y;
-    int width;
-    int height;
-    Style style;
+    public int x;
+    public int y;
+    public int width;
+    public int height;
+    public Style style;
     final ArrayList<Component> components = new ArrayList<>(
             List.of()
     );
